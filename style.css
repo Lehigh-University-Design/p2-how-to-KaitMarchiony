@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Indie Flower", cursive;
+}
+
+.inspiration-regular {
+    font-family: "Inspiration", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.imbue {
+  font-family: "Imbue", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.container{
+    background-color: #936833;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    .top{
+        height: 50vh;
+        background-color: #aba073;
+
+
+    }
+
+    .bottom{
+
+    }
+
+
+
+
+
+}
+
+.other{
+    background-color: azure;
+}
