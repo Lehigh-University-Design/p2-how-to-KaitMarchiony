@@ -69,7 +69,7 @@ body{
     .hero {
       position: relative;
       background-color: #936833;
-      background-image: url("../images/apples.png");
+      background-image: url("./images/apples.png");
       background-size: auto;
       background-repeat: 0;
       height: 80vh;
