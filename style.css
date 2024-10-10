@@ -53,13 +53,16 @@ body{
         color: white;
         h1 {
           font-family: "Imbue", serif;
+          font-size: 70px;;
         }
         h2 {
           font-family: "Inspiration", cursive;
+          font-size: 60px;
         }
       }
       .nav {
         grid-column: span 3;
+        background-attachment: fixed;
       }
     }
 
@@ -86,6 +89,7 @@ body{
       width: 60%;
       text-align: center;
       color: white;
+      font-size: 35px;
       padding: 2em;
   }
   
