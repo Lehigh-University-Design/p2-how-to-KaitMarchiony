@@ -67,6 +67,7 @@ body{
     }
 
     .hero {
+      
       position: relative;
       background-color: #936833;
       background-image: url("./images/apples.png");
@@ -85,7 +86,7 @@ body{
   
   .overlay h1 {
       background-color: #936833;
-    display: inline-block;
+      display: inline-block;
       width: 60%;
       text-align: center;
       color: white;
@@ -109,3 +110,80 @@ body{
 .other{
     background-color: azure;
 }
+
+
+/* F2DFB7 */
+
+.card{
+  background-color: #F2DFB7;
+  width: 85%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  hr{
+    background-color: #ffffff;
+    height: 1.5px; /* Adjust the thickness as needed */
+    width: 80%;
+    border-style: solid;
+    border-color: transparent;
+    margin-top: 40px;
+    
+  }
+
+  .cardContent{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: space-between;
+
+    .sideHeader{
+      margin: 10px;
+
+      .appleSideHeader{
+        height: 95%;
+
+      }
+
+    }
+    .middleContent{
+
+      display: flex;
+
+      
+
+      .text{
+        margin-left: 50px;
+        text-align: left;
+      }
+
+      .cardImgContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .cardDrawing{
+          height: 60%;
+    
+        }
+      }
+
+
+      
+    }
+
+  
+    
+  }
+
+
+
+}
+.bottomContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* background-color: red;; */
+}
+
