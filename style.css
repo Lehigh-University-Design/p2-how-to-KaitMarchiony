@@ -75,15 +75,18 @@ body{
     .hero {
 
 
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+
+      /* display: flex;
+      flex-direction: column; */
+      /* justify-content: center;
+      align-content: center;
+      justify-content: center; */
       position: relative;
       background-color: #936833;
       background-image: url("./images/apples.png");
       background-size: auto;
       background-repeat: 0;
+      height: 100%;
       /* height: 80vh; */
 
       
@@ -152,12 +155,14 @@ body{
 
   .cardContent{
     display: flex;
-    width: 100%;
+    max-width: 100%;
     height: 80%;
     justify-content: space-between;
 
     .sideHeader{
       margin: 10px;
+      max-width: 10%;
+      
 
       .appleSideHeader{
         height: 95%;
@@ -166,6 +171,7 @@ body{
 
     }
     .middleContent{
+      max-width: 80%;
 
       display: flex;
       line-height: 250%;
@@ -185,11 +191,14 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 80%;
 
         .cardDrawing{
-          height: 30%;
+          
+          height: 60%;
     
         }
+        
       }
 
 
@@ -207,9 +216,10 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: space-evenly;
+  align-items: center;
   width: 100%;
-  height: 100%;
+  height: 100%;;
+  position: relative;
 
   /* background-color: red;; */
 }
